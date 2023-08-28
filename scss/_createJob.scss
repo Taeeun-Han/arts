@@ -1,0 +1,186 @@
+.createJob {
+	.con {
+		.wrap {
+			.main_con {
+				//border: 1px solid red;
+				background-image: none;
+				padding: 20px 10px;
+
+				header {
+					//border: 1px solid cornflowerblue;
+					padding: 10px;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+
+					span {
+						color: #111;
+						cursor: pointer;
+
+						&:last-child {
+							color: #ff9228;
+							font-weight: 700;
+							font-size: 14px;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+
+			.createJobSection {
+				//border: 1px solid salmon;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: center;
+				gap: 15px;
+
+				.title {
+					margin-bottom: 15px;
+
+					span {
+						font-weight: 700;
+						font-size: 16px;
+					}
+				}
+
+				.box {
+					background-color: #fff;
+					border-radius: 10px;
+					width: 100%;
+					padding: 20px;
+					box-sizing: border-box;
+					display: flex;
+					flex-direction: column;
+					padding: 20px;
+
+					.first {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin-bottom: 20px;
+
+						span {
+							font-weight: 700;
+							font-size: 14px;
+
+							&:nth-of-type(2) {
+								color: #ff9228;
+								font-size: 20px;
+								font-weight: normal;
+							}
+						}
+					}
+
+					.first_date {
+						margin-bottom: 30px;
+					}
+
+					.second,
+					.third {
+						span {
+							font-size: 13px;
+							text-align: left;
+						}
+
+						input[type="text"] {
+							width: 250px;
+							height: 20px;
+							padding: 5px;
+							border: none;
+							border-bottom: 1px solid #bbb;
+							font-family: "Dm Sans";
+						}
+
+						input[type="date"] {
+							width: 250px;
+							height: 20px;
+							padding: 5px;
+							border: none;
+							border-bottom: 1px solid #bbb;
+							font-family: "Dm Sans";
+							color: #929292;
+						}
+					}
+
+					.third {
+						display: flex;
+						flex-direction: column;
+						gap: 10px;
+						margin-bottom: 30px;
+
+						&:last-child {
+							margin-bottom: 10px;
+						}
+					}
+				}
+
+				.description {
+					.second {
+						input[type="text"] {
+							width: 250px;
+							height: 200px;
+							padding: 5px;
+							border: 1px solid #bbb;
+							font-family: "Dm Sans";
+						}
+					}
+				}
+
+				.location {
+					.second {
+						position: relative;
+						margin-bottom: 20px;
+
+						span {
+							&:last-child {
+								position: absolute;
+								right: 13px;
+								font-size: 20px;
+								top: 3px;
+							}
+						}
+					}
+				}
+
+				.instrument {
+					margin-bottom: 100px;
+
+					.second {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin-bottom: 20px;
+
+						select {
+							padding: 5px 15px;
+							border: none;
+							border-bottom: 1px solid #bbb;
+							width: 200px;
+						}
+
+						input[type="text"] {
+							width: 20px;
+							padding: 5px;
+							border: 1px solid #bbb;
+							font-family: "Dm Sans";
+							border: none;
+							border-bottom: 1px solid #bbb;
+							text-align: center;
+						}
+					}
+
+					.third {
+						button {
+							cursor: pointer;
+							width: 70px;
+							height: 30px;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
