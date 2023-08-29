@@ -236,14 +236,12 @@ button {
 				width: 100%;
 				border-radius: 15px;
 				padding: 25px 15px;
-				cursor: pointer;
 
 				.first {
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
 					margin-bottom: 15px;
-					//border: 1px solid salmon;
 
 					p {
 						text-align: left;
@@ -254,12 +252,14 @@ button {
 						white-space: nowrap;
 						text-overflow: ellipsis;
 						word-break: break-all;
+						cursor: pointer;
 					}
 
 					.favorite {
 						display: flex;
 						justify-content: center;
 						align-items: center;
+						cursor: pointer;
 
 						.favorite_icon {
 							font-size: 24px;

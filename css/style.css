@@ -103,6 +103,9 @@
   font-size: 12px;
   color: #aaa6b9;
 }
+.business .con .wrap .search_result .result .third .favorite {
+  cursor: pointer;
+}
 .business .con .wrap .search_result .result .third .favorite .favorite_icon {
   font-size: 24px;
   color: rgb(252, 107, 91);
@@ -471,7 +474,6 @@ button {
   width: 100%;
   border-radius: 15px;
   padding: 25px 15px;
-  cursor: pointer;
 }
 .content .wrap .search_result .result .first {
   display: flex;
@@ -488,11 +490,13 @@ button {
   white-space: nowrap;
   text-overflow: ellipsis;
   word-break: break-all;
+  cursor: pointer;
 }
 .content .wrap .search_result .result .first .favorite {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .content .wrap .search_result .result .first .favorite .favorite_icon {
   font-size: 24px;
