@@ -63,6 +63,10 @@
 .business .con .wrap .main_con {
   margin-bottom: 40px;
 }
+.business .con .wrap .main_con header .location_icon {
+  position: absolute;
+  top: 62px;
+}
 .business .con .wrap .search_result {
   gap: 15px;
 }
@@ -126,11 +130,12 @@
   justify-content: space-between;
   align-items: center;
 }
-.createJob .con .wrap .main_con header span {
+.createJob .con .wrap .main_con header a span {
   color: #111;
   cursor: pointer;
+  font-size: 20px;
 }
-.createJob .con .wrap .main_con header span:last-child {
+.createJob .con .wrap .main_con header span {
   color: #ff9228;
   font-weight: 700;
   font-size: 14px;
@@ -618,7 +623,7 @@ button {
   color: #fff;
   position: fixed;
   bottom: 100px;
-  left: 800px;
+  left: 450px;
   cursor: pointer;
 }
 .content .wrap {

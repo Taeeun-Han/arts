@@ -3,6 +3,14 @@
 		.wrap {
 			.main_con {
 				margin-bottom: 40px;
+
+				header{
+
+					.location_icon{
+						position: absolute;
+						top: 62px;
+					}
+				}
 			}
 
 			.search_result {
