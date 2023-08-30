@@ -136,25 +136,31 @@ button {
 	width: 360px;
 	margin: 0 auto;
 	background-color: #f9f9f9;
+	position: relative;
+	border: 1px solid red;
 
-	.createButton {
-		button {
-			width: 50px;
-			height: 50px;
-			border-radius: 50%;
-			font-weight: bold;
-			font-size: 20px;
-			background-color: #ff9228;
-			color: #fff;
-			position: fixed;
-			bottom: 100px;
-			left: 450px;
-			cursor: pointer;
+	.con {
+
+		a {
+			.addJob {
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				font-weight: bold;
+				font-size: 20px;
+				background-color: #ff9228;
+				color: #fff;
+				position: fixed;
+				bottom: 130px;
+				left: 800px;
+				cursor: pointer;
+				margin: 0 auto;
+
+			}
 		}
 	}
 
 	.wrap {
-		//padding: 0 20px;
 		box-sizing: border-box;
 
 		.main_con {
