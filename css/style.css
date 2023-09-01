@@ -275,6 +275,22 @@
   align-items: center;
   gap: 20px;
 }
+.login .con .wrap .main_con header a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+.login .con .wrap .main_con header a span {
+  color: #111;
+  cursor: pointer;
+  font-size: 20px;
+}
+.login .con .wrap .main_con header span {
+  color: #ff9228;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
 .login .con .wrap .main_con header h1 {
   font-weight: 700;
   font-size: 20px;
@@ -285,7 +301,7 @@
   line-height: 21px;
 }
 .login .con .wrap .login_form {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .login .con .wrap .login_form .wrap {
   display: flex;
@@ -401,6 +417,23 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  position: relative;
+}
+.join .con .wrap .main_con header a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+.join .con .wrap .main_con header a span {
+  color: #111;
+  cursor: pointer;
+  font-size: 20px;
+}
+.join .con .wrap .main_con header span {
+  color: #ff9228;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
 }
 .join .con .wrap .main_con header h1 {
   font-weight: 700;
@@ -412,7 +445,7 @@
   line-height: 21px;
 }
 .join .con .wrap .join_form {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .join .con .wrap .join_form .wrap {
   display: flex;
@@ -473,7 +506,7 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .join .con .wrap .join_form .wrap .social img {
   width: 40px;
@@ -482,6 +515,197 @@
   border-radius: 25px;
   padding: 5px;
   cursor: pointer;
+}
+
+.forgot .con .wrap .main_con {
+  background-image: none;
+}
+.forgot .con .wrap .main_con header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.forgot .con .wrap .main_con header h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.forgot .con .wrap .main_con header p {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+}
+.forgot .con .wrap .forgot_form .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.forgot .con .wrap .forgot_form .wrap img {
+  width: 130px;
+  display: block;
+}
+.forgot .con .wrap .forgot_form .wrap .email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.forgot .con .wrap .forgot_form .wrap .email p {
+  font-weight: 700;
+  font-size: 14px;
+}
+.forgot .con .wrap .forgot_form .wrap .email input[type=text] {
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  width: 277px;
+  margin-bottom: 10px;
+}
+.forgot .con .wrap .forgot_form .wrap button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px 0px;
+  cursor: pointer;
+  background-color: #130160;
+  color: #fff;
+  font-family: "DM Sans";
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.forgot .con .wrap .forgot_form .wrap a {
+  width: 100%;
+}
+.forgot .con .wrap .forgot_form .wrap a button {
+  background-color: #d6cdfe;
+  margin-bottom: 80px;
+}
+
+.checkEmail .con .wrap .main_con {
+  background-image: none;
+}
+.checkEmail .con .wrap .main_con header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.checkEmail .con .wrap .main_con header h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.checkEmail .con .wrap .main_con header p {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+}
+.checkEmail .con .wrap .check_form .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.checkEmail .con .wrap .check_form .wrap img {
+  width: 130px;
+  display: block;
+  margin-bottom: 30px;
+}
+.checkEmail .con .wrap .check_form .wrap a {
+  width: 100%;
+}
+.checkEmail .con .wrap .check_form .wrap a button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px 0px;
+  cursor: pointer;
+  background-color: #130160;
+  color: #fff;
+  font-family: "DM Sans";
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.checkEmail .con .wrap .check_form .wrap .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 200px;
+}
+.checkEmail .con .wrap .check_form .wrap .txt span {
+  font-size: 14px;
+}
+.checkEmail .con .wrap .check_form .wrap .txt a {
+  width: auto;
+}
+.checkEmail .con .wrap .check_form .wrap .txt a span {
+  font-weight: 700;
+  color: #ff9228;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.successChangePw .con .wrap .main_con {
+  background-image: none;
+}
+.successChangePw .con .wrap .main_con header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.successChangePw .con .wrap .main_con header h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.successChangePw .con .wrap .main_con header p {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+}
+.successChangePw .con .wrap .success_form .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.successChangePw .con .wrap .success_form .wrap img {
+  width: 130px;
+  display: block;
+  margin-bottom: 30px;
+}
+.successChangePw .con .wrap .success_form .wrap a {
+  width: 100%;
+}
+.successChangePw .con .wrap .success_form .wrap a button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px 0px;
+  cursor: pointer;
+  background-color: #130160;
+  color: #fff;
+  font-family: "DM Sans";
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 250px;
 }
 
 html,
@@ -613,7 +837,6 @@ button {
   margin: 0 auto;
   background-color: #f9f9f9;
   position: relative;
-  border: 1px solid red;
 }
 .content .con a .addJob {
   width: 50px;

@@ -1,0 +1,88 @@
+.checkEmail {
+	.con {
+		.wrap {
+			.main_con {
+				background-image: none;
+
+				header {
+					margin-top: 50px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					gap: 30px;
+
+					h1 {
+						font-weight: 700;
+						font-size: 20px;
+					}
+
+					p {
+						font-weight: normal;
+						font-size: 13px;
+						line-height: 21px;
+					}
+				}
+			}
+
+			.check_form {
+				.wrap {
+					display: flex;
+					flex-direction: column;
+					width: 100%;
+					margin: 0 auto;
+					//border: 1px solid red;
+					gap: 30px;
+					justify-content: center;
+					align-items: center;
+
+					img {
+						width: 130px;
+						display: block;
+						margin-bottom: 30px;
+					}
+
+					a {
+						width: 100%;
+
+						button {
+							width: 100%;
+							margin: 0 auto;
+							padding: 13px 0px;
+							cursor: pointer;
+							background-color: #130160;
+							color: #fff;
+							font-family: "DM Sans";
+							letter-spacing: 1px;
+							font-weight: 700;
+							font-size: 12px;
+						}
+					}
+
+					.txt {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						gap: 10px;
+						margin-bottom: 200px;
+
+						span {
+							font-size: 14px;
+						}
+
+						a {
+                            width: auto;
+
+							span {
+								font-weight: 700;
+								color: #ff9228;
+								cursor: pointer;
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
